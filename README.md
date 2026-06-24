@@ -4,7 +4,7 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C# Logo" width="80" height="80">
 </p>
 
-<h1 align="center">🚀 GaitTracker: Análisis Biomecánico con Péndulo Invertido</h1>
+<h1 align="center">GaitTracker: Análisis Biomecánico con Péndulo Invertido</h1>
 
 <p align="center">
   <strong>Análisis y Reconstrucción Espaciotemporal con Sensores IMU</strong>
