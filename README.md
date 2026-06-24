@@ -273,68 +273,7 @@ A continuación, se desglosa la comparativa por cada prueba, incluyendo el error
 
 <div align="center">
 
-<table style="border-collapse: collapse; width: 100%; max-width: 800px; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.1); margin: auto; font-family: sans-serif;">
-  <thead>
-    <tr style="background-color: #2C3E50; color: #ffffff; text-align: center; font-size: 16px;">
-      <th style="padding: 15px;">Métrica</th>
-      <th style="padding: 15px;">Python</th>
-      <th style="padding: 15px;">C#</th>
-      <th style="padding: 15px;">Error Absoluto</th>
-      <th style="padding: 15px;">Error Relativo (%)</th>
-    </tr>
-  </thead>
-  <tbody style="background-color: #ffffff; color: #333333; text-align: center;">
-    <tr style="border-bottom: 1px solid #eeeeee;">
-      <td style="padding: 12px; text-align: left; font-weight: bold;">Distancia Total (m)</td>
-      <td style="padding: 12px;">51.31</td>
-      <td style="padding: 12px;">52.17</td>
-      <td style="padding: 12px; color: #d32f2f; font-weight: 600;">+0.86</td>
-      <td style="padding: 12px;">1.68%</td>
-    </tr>
-    <tr style="background-color: #f9f9f9; border-bottom: 1px solid #eeeeee;">
-      <td style="padding: 12px; text-align: left; font-weight: bold;">Tiempo Total (s)</td>
-      <td style="padding: 12px;">34.36</td>
-      <td style="padding: 12px;">34.52</td>
-      <td style="padding: 12px; color: #d32f2f; font-weight: 600;">+0.16</td>
-      <td style="padding: 12px;">0.47%</td>
-    </tr>
-    <tr style="border-bottom: 1px solid #eeeeee;">
-      <td style="padding: 12px; text-align: left; font-weight: bold;">Vel. Media (m/s)</td>
-      <td style="padding: 12px;">1.49</td>
-      <td style="padding: 12px;">1.51</td>
-      <td style="padding: 12px; color: #d32f2f; font-weight: 600;">+0.02</td>
-      <td style="padding: 12px;">1.34%</td>
-    </tr>
-    <tr style="background-color: #f9f9f9; border-bottom: 1px solid #eeeeee;">
-      <td style="padding: 12px; text-align: left; font-weight: bold;">Vel. Media (km/h)</td>
-      <td style="padding: 12px;">5.37</td>
-      <td style="padding: 12px;">5.44</td>
-      <td style="padding: 12px; color: #d32f2f; font-weight: 600;">+0.07</td>
-      <td style="padding: 12px;">1.30%</td>
-    </tr>
-    <tr style="border-bottom: 1px solid #eeeeee;">
-      <td style="padding: 12px; text-align: left; font-weight: bold;">Zancadas</td>
-      <td style="padding: 12px;">57</td>
-      <td style="padding: 12px;">58</td>
-      <td style="padding: 12px; color: #d32f2f; font-weight: 600;">+1</td>
-      <td style="padding: 12px;">1.75%</td>
-    </tr>
-    <tr style="background-color: #f9f9f9; border-bottom: 1px solid #eeeeee;">
-      <td style="padding: 12px; text-align: left; font-weight: bold;">Cadencia (ppm)</td>
-      <td style="padding: 12px;">53.19</td>
-      <td style="padding: 12px;">53.19</td>
-      <td style="padding: 12px; color: #388e3c; font-weight: 600;">0.00</td>
-      <td style="padding: 12px; color: #388e3c; font-weight: 600;">0.00%</td>
-    </tr>
-    <tr>
-      <td style="padding: 12px; text-align: left; font-weight: bold;">Long. Zancada (m)</td>
-      <td style="padding: 12px;">1.80</td>
-      <td style="padding: 12px;">1.79</td>
-      <td style="padding: 12px; color: #1976d2; font-weight: 600;">-0.01</td>
-      <td style="padding: 12px;">0.56%</td>
-    </tr>
-  </tbody>
-</table>
+![Tabla Marcha 5km/h](resultados/table_marcha_5kmh.png)
 
 </div>
 
@@ -342,68 +281,7 @@ A continuación, se desglosa la comparativa por cada prueba, incluyendo el error
 
 <div align="center">
 
-<table style="border-collapse: collapse; width: 100%; max-width: 800px; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.1); margin: auto; font-family: sans-serif;">
-  <thead>
-    <tr style="background-color: #2C3E50; color: #ffffff; text-align: center; font-size: 16px;">
-      <th style="padding: 15px;">Métrica</th>
-      <th style="padding: 15px;">Python</th>
-      <th style="padding: 15px;">C#</th>
-      <th style="padding: 15px;">Error Absoluto</th>
-      <th style="padding: 15px;">Error Relativo (%)</th>
-    </tr>
-  </thead>
-  <tbody style="background-color: #ffffff; color: #333333; text-align: center;">
-    <tr style="border-bottom: 1px solid #eeeeee;">
-      <td style="padding: 12px; text-align: left; font-weight: bold;">Distancia Total (m)</td>
-      <td style="padding: 12px;">94.65</td>
-      <td style="padding: 12px;">94.65</td>
-      <td style="padding: 12px; color: #388e3c; font-weight: 600;">0.00</td>
-      <td style="padding: 12px; color: #388e3c; font-weight: 600;">0.00%</td>
-    </tr>
-    <tr style="background-color: #f9f9f9; border-bottom: 1px solid #eeeeee;">
-      <td style="padding: 12px; text-align: left; font-weight: bold;">Tiempo Total (s)</td>
-      <td style="padding: 12px;">37.98</td>
-      <td style="padding: 12px;">37.98</td>
-      <td style="padding: 12px; color: #388e3c; font-weight: 600;">0.00</td>
-      <td style="padding: 12px; color: #388e3c; font-weight: 600;">0.00%</td>
-    </tr>
-    <tr style="border-bottom: 1px solid #eeeeee;">
-      <td style="padding: 12px; text-align: left; font-weight: bold;">Vel. Media (m/s)</td>
-      <td style="padding: 12px;">2.49</td>
-      <td style="padding: 12px;">2.49</td>
-      <td style="padding: 12px; color: #388e3c; font-weight: 600;">0.00</td>
-      <td style="padding: 12px; color: #388e3c; font-weight: 600;">0.00%</td>
-    </tr>
-    <tr style="background-color: #f9f9f9; border-bottom: 1px solid #eeeeee;">
-      <td style="padding: 12px; text-align: left; font-weight: bold;">Vel. Media (km/h)</td>
-      <td style="padding: 12px;">8.96</td>
-      <td style="padding: 12px;">8.96</td>
-      <td style="padding: 12px; color: #388e3c; font-weight: 600;">0.00</td>
-      <td style="padding: 12px; color: #388e3c; font-weight: 600;">0.00%</td>
-    </tr>
-    <tr style="border-bottom: 1px solid #eeeeee;">
-      <td style="padding: 12px; text-align: left; font-weight: bold;">Zancadas</td>
-      <td style="padding: 12px;">97</td>
-      <td style="padding: 12px;">97</td>
-      <td style="padding: 12px; color: #388e3c; font-weight: 600;">0</td>
-      <td style="padding: 12px; color: #388e3c; font-weight: 600;">0.00%</td>
-    </tr>
-    <tr style="background-color: #f9f9f9; border-bottom: 1px solid #eeeeee;">
-      <td style="padding: 12px; text-align: left; font-weight: bold;">Cadencia (ppm)</td>
-      <td style="padding: 12px;">82.45</td>
-      <td style="padding: 12px;">82.45</td>
-      <td style="padding: 12px; color: #388e3c; font-weight: 600;">0.00</td>
-      <td style="padding: 12px; color: #388e3c; font-weight: 600;">0.00%</td>
-    </tr>
-    <tr>
-      <td style="padding: 12px; text-align: left; font-weight: bold;">Long. Zancada (m)</td>
-      <td style="padding: 12px;">1.95</td>
-      <td style="padding: 12px;">1.95</td>
-      <td style="padding: 12px; color: #388e3c; font-weight: 600;">0.00</td>
-      <td style="padding: 12px; color: #388e3c; font-weight: 600;">0.00%</td>
-    </tr>
-  </tbody>
-</table>
+![Tabla Carrera 10km/h](resultados/table_carrera_10kmh.png)
 
 </div>
 
@@ -411,68 +289,7 @@ A continuación, se desglosa la comparativa por cada prueba, incluyendo el error
 
 <div align="center">
 
-<table style="border-collapse: collapse; width: 100%; max-width: 800px; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.1); margin: auto; font-family: sans-serif;">
-  <thead>
-    <tr style="background-color: #2C3E50; color: #ffffff; text-align: center; font-size: 16px;">
-      <th style="padding: 15px;">Métrica</th>
-      <th style="padding: 15px;">Python</th>
-      <th style="padding: 15px;">C#</th>
-      <th style="padding: 15px;">Error Absoluto</th>
-      <th style="padding: 15px;">Error Relativo (%)</th>
-    </tr>
-  </thead>
-  <tbody style="background-color: #ffffff; color: #333333; text-align: center;">
-    <tr style="border-bottom: 1px solid #eeeeee;">
-      <td style="padding: 12px; text-align: left; font-weight: bold;">Distancia Total (m)</td>
-      <td style="padding: 12px;">111.43</td>
-      <td style="padding: 12px;">115.95</td>
-      <td style="padding: 12px; color: #d32f2f; font-weight: 600;">+4.52</td>
-      <td style="padding: 12px;">4.06%</td>
-    </tr>
-    <tr style="background-color: #f9f9f9; border-bottom: 1px solid #eeeeee;">
-      <td style="padding: 12px; text-align: left; font-weight: bold;">Tiempo Total (s)</td>
-      <td style="padding: 12px;">23.51</td>
-      <td style="padding: 12px;">23.85</td>
-      <td style="padding: 12px; color: #d32f2f; font-weight: 600;">+0.34</td>
-      <td style="padding: 12px;">1.45%</td>
-    </tr>
-    <tr style="border-bottom: 1px solid #eeeeee;">
-      <td style="padding: 12px; text-align: left; font-weight: bold;">Vel. Media (m/s)</td>
-      <td style="padding: 12px;">4.73</td>
-      <td style="padding: 12px;">4.86</td>
-      <td style="padding: 12px; color: #d32f2f; font-weight: 600;">+0.13</td>
-      <td style="padding: 12px;">2.75%</td>
-    </tr>
-    <tr style="background-color: #f9f9f9; border-bottom: 1px solid #eeeeee;">
-      <td style="padding: 12px; text-align: left; font-weight: bold;">Vel. Media (km/h)</td>
-      <td style="padding: 12px;">17.05</td>
-      <td style="padding: 12px;">17.49</td>
-      <td style="padding: 12px; color: #d32f2f; font-weight: 600;">+0.44</td>
-      <td style="padding: 12px;">2.58%</td>
-    </tr>
-    <tr style="border-bottom: 1px solid #eeeeee;">
-      <td style="padding: 12px; text-align: left; font-weight: bold;">Zancadas</td>
-      <td style="padding: 12px;">63</td>
-      <td style="padding: 12px;">66</td>
-      <td style="padding: 12px; color: #d32f2f; font-weight: 600;">+3</td>
-      <td style="padding: 12px;">4.76%</td>
-    </tr>
-    <tr style="background-color: #f9f9f9; border-bottom: 1px solid #eeeeee;">
-      <td style="padding: 12px; text-align: left; font-weight: bold;">Cadencia (ppm)</td>
-      <td style="padding: 12px;">92.21</td>
-      <td style="padding: 12px;">91.40</td>
-      <td style="padding: 12px; color: #1976d2; font-weight: 600;">-0.81</td>
-      <td style="padding: 12px;">0.88%</td>
-    </tr>
-    <tr>
-      <td style="padding: 12px; text-align: left; font-weight: bold;">Long. Zancada (m)</td>
-      <td style="padding: 12px;">3.53</td>
-      <td style="padding: 12px;">3.51</td>
-      <td style="padding: 12px; color: #1976d2; font-weight: 600;">-0.02</td>
-      <td style="padding: 12px;">0.57%</td>
-    </tr>
-  </tbody>
-</table>
+![Tabla Carrera 15km/h](resultados/table_carrera_15kmh.png)
 
 </div>
 
