@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "8eASTljm6NE=",
+  "success": true,
+  "projectFilePath": "/Users/amc/Documents/gait_pierna/GaitPipelineCSharp/GaitPipelineCSharp.csproj",
+  "expectedPackageFiles": [
+    "/Users/amc/.nuget/packages/harfbuzzsharp/8.3.1.1/harfbuzzsharp.8.3.1.1.nupkg.sha512",
+    "/Users/amc/.nuget/packages/harfbuzzsharp.nativeassets.linux/8.3.1.1/harfbuzzsharp.nativeassets.linux.8.3.1.1.nupkg.sha512",
+    "/Users/amc/.nuget/packages/harfbuzzsharp.nativeassets.macos/8.3.1.1/harfbuzzsharp.nativeassets.macos.8.3.1.1.nupkg.sha512",
+    "/Users/amc/.nuget/packages/harfbuzzsharp.nativeassets.win32/8.3.1.1/harfbuzzsharp.nativeassets.win32.8.3.1.1.nupkg.sha512",
+    "/Users/amc/.nuget/packages/mathnet.numerics/5.0.0/mathnet.numerics.5.0.0.nupkg.sha512",
+    "/Users/amc/.nuget/packages/scottplot/5.1.59/scottplot.5.1.59.nupkg.sha512",
+    "/Users/amc/.nuget/packages/skiasharp/3.119.0/skiasharp.3.119.0.nupkg.sha512",
+    "/Users/amc/.nuget/packages/skiasharp.harfbuzz/3.119.0/skiasharp.harfbuzz.3.119.0.nupkg.sha512",
+    "/Users/amc/.nuget/packages/skiasharp.nativeassets.linux.nodependencies/3.119.0/skiasharp.nativeassets.linux.nodependencies.3.119.0.nupkg.sha512",
+    "/Users/amc/.nuget/packages/skiasharp.nativeassets.macos/3.119.0/skiasharp.nativeassets.macos.3.119.0.nupkg.sha512",
+    "/Users/amc/.nuget/packages/skiasharp.nativeassets.win32/3.119.0/skiasharp.nativeassets.win32.3.119.0.nupkg.sha512"
+  ],
+  "logs": []
+}
