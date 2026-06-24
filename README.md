@@ -1,4 +1,27 @@
-# GaitTracker: Análisis Biomecánico Avanzado Basado en Modelo de Péndulo Invertido con Sensores IMU
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python Logo" width="80" height="80">
+       
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C# Logo" width="80" height="80">
+</p>
+
+<h1 align="center">🚀 GaitTracker: Análisis Biomecánico con Péndulo Invertido</h1>
+
+<p align="center">
+  <strong>Análisis y Reconstrucción Espaciotemporal con Sensores IMU</strong>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/PYTHON-3.8+-3670A0?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/C%23-.NET_6.0+-239120?style=for-the-badge&logo=csharp&logoColor=white" alt="C#">
+  <img src="https://img.shields.io/badge/NUMPY-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy">
+  <img src="https://img.shields.io/badge/SCIPY-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=white" alt="SciPy">
+  <img src="https://img.shields.io/badge/PANDAS-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas">
+  <img src="https://img.shields.io/badge/MATPLOTLIB-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black" alt="Matplotlib">
+  <img src="https://img.shields.io/badge/SKINEMATICS-%23FF5722.svg?style=for-the-badge&logoColor=white" alt="Skinematics">
+  <img src="https://img.shields.io/badge/ESTADO-ACTIVO-brightgreen?style=for-the-badge" alt="Estado">
+</p>
+
+---
 
 Este repositorio contiene un pipeline completo para el análisis de marcha y carrera utilizando sensores IMU montados en la pierna. El objetivo principal es procesar datos crudos de acelerómetros, giroscopios y cuaternions, calculando la orientación mediante los cuaterniones, identificar eventos de la marcha (Heel Strike y Toe Off) basados en un modelo de péndulo invertido, y extraer métricas espaciotemporales (longitud de zancada, altura del pie, velocidad, cadencia).
 
@@ -15,7 +38,7 @@ El código de Python depende de librerías científicas estándar. Asegúrate de
 Puedes instalar las dependencias con `pip`:
 
 ```bash
-pip install numpy pandas matplotlib scipy
+pip install numpy pandas matplotlib scipy skinematics
 ```
 
 **Dependencias principales:**
@@ -97,7 +120,7 @@ var metricas = GaitPipeline.ComputeStrideMetrics(sensorData, eventosValidados.Va
 
 <div align="center">
 
-![Esquema del Algoritmo](/Users/amc/Documents/gait_pierna/src/esquema.png)
+![Esquema del Algoritmo](src/esquema.png)
 
 </div>
 
@@ -306,9 +329,9 @@ Las siguientes gráficas fueron generadas con `matplotlib` en la ejecución de P
 
 <div align="center">
 
-![Theta Marcha 5km/h](/Users/amc/Documents/gait_pierna/resultados/theta_comparison_marcha_5kmh.png)
-![Theta Carrera 10km/h](/Users/amc/Documents/gait_pierna/resultados/theta_comparison_carrera_10kmh.png)
-![Theta Carrera 15km/h](/Users/amc/Documents/gait_pierna/resultados/theta_comparison_carrera_15kmh.png)
+![Theta Marcha 5km/h](resultados/theta_comparison_marcha_5kmh.png)
+![Theta Carrera 10km/h](resultados/theta_comparison_carrera_10kmh.png)
+![Theta Carrera 15km/h](resultados/theta_comparison_carrera_15kmh.png)
 
 </div>
 
@@ -316,9 +339,9 @@ Las siguientes gráficas fueron generadas con `matplotlib` en la ejecución de P
 
 <div align="center">
 
-![Altura Pie Marcha 5km/h](/Users/amc/Documents/gait_pierna/resultados/height_comparison_marcha_5kmh.png)
-![Altura Pie Carrera 10km/h](/Users/amc/Documents/gait_pierna/resultados/height_comparison_carrera_10kmh.png)
-![Altura Pie Carrera 15km/h](/Users/amc/Documents/gait_pierna/resultados/height_comparison_carrera_15kmh.png)
+![Altura Pie Marcha 5km/h](resultados/height_comparison_marcha_5kmh.png)
+![Altura Pie Carrera 10km/h](resultados/height_comparison_carrera_10kmh.png)
+![Altura Pie Carrera 15km/h](resultados/height_comparison_carrera_15kmh.png)
 
 </div>
 
@@ -332,9 +355,9 @@ Las siguientes gráficas fueron generadas con C# usando la librería OxyPlot, y 
 
 <div align="center">
 
-![Theta C# Marcha 5km/h Time](/Users/amc/Documents/gait_pierna/resultados_csharp/theta_comparison_time_marcha_5kmh.png)
-![Theta C# Carrera 10km/h Time](/Users/amc/Documents/gait_pierna/resultados_csharp/theta_comparison_time_carrera_10kmh.png)
-![Theta C# Carrera 15km/h Time](/Users/amc/Documents/gait_pierna/resultados_csharp/theta_comparison_time_carrera_15kmh.png)
+![Theta C# Marcha 5km/h Time](resultados_csharp/theta_comparison_time_marcha_5kmh.png)
+![Theta C# Carrera 10km/h Time](resultados_csharp/theta_comparison_time_carrera_10kmh.png)
+![Theta C# Carrera 15km/h Time](resultados_csharp/theta_comparison_time_carrera_15kmh.png)
 
 </div>
 
@@ -342,9 +365,9 @@ Las siguientes gráficas fueron generadas con C# usando la librería OxyPlot, y 
 
 <div align="center">
 
-![Theta C# Marcha 5km/h Dist](/Users/amc/Documents/gait_pierna/resultados_csharp/theta_comparison_dist_marcha_5kmh.png)
-![Theta C# Carrera 10km/h Dist](/Users/amc/Documents/gait_pierna/resultados_csharp/theta_comparison_dist_carrera_10kmh.png)
-![Theta C# Carrera 15km/h Dist](/Users/amc/Documents/gait_pierna/resultados_csharp/theta_comparison_dist_carrera_15kmh.png)
+![Theta C# Marcha 5km/h Dist](resultados_csharp/theta_comparison_dist_marcha_5kmh.png)
+![Theta C# Carrera 10km/h Dist](resultados_csharp/theta_comparison_dist_carrera_10kmh.png)
+![Theta C# Carrera 15km/h Dist](resultados_csharp/theta_comparison_dist_carrera_15kmh.png)
 
 </div>
 
@@ -352,9 +375,9 @@ Las siguientes gráficas fueron generadas con C# usando la librería OxyPlot, y 
 
 <div align="center">
 
-![Height C# Marcha 5km/h Time](/Users/amc/Documents/gait_pierna/resultados_csharp/height_comparison_time_marcha_5kmh.png)
-![Height C# Carrera 10km/h Time](/Users/amc/Documents/gait_pierna/resultados_csharp/height_comparison_time_carrera_10kmh.png)
-![Height C# Carrera 15km/h Time](/Users/amc/Documents/gait_pierna/resultados_csharp/height_comparison_time_carrera_15kmh.png)
+![Height C# Marcha 5km/h Time](resultados_csharp/height_comparison_time_marcha_5kmh.png)
+![Height C# Carrera 10km/h Time](resultados_csharp/height_comparison_time_carrera_10kmh.png)
+![Height C# Carrera 15km/h Time](resultados_csharp/height_comparison_time_carrera_15kmh.png)
 
 </div>
 
@@ -362,9 +385,9 @@ Las siguientes gráficas fueron generadas con C# usando la librería OxyPlot, y 
 
 <div align="center">
 
-![Height C# Marcha 5km/h Dist](/Users/amc/Documents/gait_pierna/resultados_csharp/height_comparison_dist_marcha_5kmh.png)
-![Height C# Carrera 10km/h Dist](/Users/amc/Documents/gait_pierna/resultados_csharp/height_comparison_dist_carrera_10kmh.png)
-![Height C# Carrera 15km/h Dist](/Users/amc/Documents/gait_pierna/resultados_csharp/height_comparison_dist_carrera_15kmh.png)
+![Height C# Marcha 5km/h Dist](resultados_csharp/height_comparison_dist_marcha_5kmh.png)
+![Height C# Carrera 10km/h Dist](resultados_csharp/height_comparison_dist_carrera_10kmh.png)
+![Height C# Carrera 15km/h Dist](resultados_csharp/height_comparison_dist_carrera_15kmh.png)
 
 </div>
 
@@ -375,12 +398,13 @@ Las siguientes gráficas fueron generadas con C# usando la librería OxyPlot, y 
 Al estudiar detalladamente las visualizaciones generadas por el pipeline tanto en Python como en C#, podemos validar el comportamiento biomecánico capturado por los IMUs:
 
 1. **Dinámica del Ángulo Theta (Oscilación Pendular)**:
+
    - Las gráficas exhiben una onda sinusoidal limpia y periódica que describe perfectamente el balanceo de la pierna en su eje sagital (**Ángulo Theta**). Es importante recalcar que este ángulo fundamental se determina directamente a partir de la descomposición matemática de los **Cuaterniones** de orientación espacial.
    - La eficacia de los filtros Butterworth y Savitzky-Golay es evidente: la señal resultante no presenta derivas significativas (*drift*) ni ruido de alta frecuencia que entorpezca la detección.
    - **Según la lógica central del algoritmo, la totalidad de los pasos o zancadas son detectados evaluando esta señal de Theta**: los picos positivos (rotación máxima hacia adelante) delimitan con exactitud el inicio del paso o **Heel Strike**, mientras que los valles profundos (extensión trasera de la pierna) marcan el final de la fase de apoyo o **Toe Off**.
    - Al mapearse sobre el tiempo y la distancia, se observa cómo la cadencia y la amplitud del ángulo cambian drásticamente entre la marcha (5km/h) y la carrera (10km/h y 15km/h), reflejando con exactitud la biomecánica del sujeto.
-
 2. **Reconstrucción del Perfil de Altura del Pie**:
+
    - A diferencia de los métodos clásicos de doble integración de la aceleración (los cuales sufren de acumulación infinita de error espacial), el modelo geométrico de péndulo invertido implementado aquí produce ciclos cerrados y estables.
    - Las curvas de altura muestran formas de "campana" suaves durante la fase de *Swing* (oscilación), que aterrizan y se estabilizan estrictamente en la base (0 metros) durante la fase de *Stance* (apoyo).
    - Las salidas visuales de Python y C# son prácticamente superponibles. Las alturas máximas mapeadas son fisiológicamente correctas, validando por completo la robustez de las ecuaciones en ambas plataformas sin requerir algoritmos pesados de *Zero Velocity Update (ZUPT)*.

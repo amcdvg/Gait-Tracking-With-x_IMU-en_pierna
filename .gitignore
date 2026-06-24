@@ -2,3 +2,4 @@ env
 i.py
 test_euler.py
 test_sg.py
+__pycache__/
