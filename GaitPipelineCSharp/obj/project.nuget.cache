@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8eASTljm6NE=",
+  "dgSpecHash": "3VOW2mpI0mE=",
   "success": true,
-  "projectFilePath": "/Users/amc/Documents/gait_pierna/GaitPipelineCSharp/GaitPipelineCSharp.csproj",
+  "projectFilePath": "/Users/amc/Documents/Gait-Tracking-With-x_IMU-en_pierna/GaitPipelineCSharp/GaitPipelineCSharp.csproj",
   "expectedPackageFiles": [
     "/Users/amc/.nuget/packages/harfbuzzsharp/8.3.1.1/harfbuzzsharp.8.3.1.1.nupkg.sha512",
     "/Users/amc/.nuget/packages/harfbuzzsharp.nativeassets.linux/8.3.1.1/harfbuzzsharp.nativeassets.linux.8.3.1.1.nupkg.sha512",

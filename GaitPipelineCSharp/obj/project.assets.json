@@ -614,11 +614,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/amc/Documents/gait_pierna/GaitPipelineCSharp/GaitPipelineCSharp.csproj",
+      "projectUniqueName": "/Users/amc/Documents/Gait-Tracking-With-x_IMU-en_pierna/GaitPipelineCSharp/GaitPipelineCSharp.csproj",
       "projectName": "GaitPipelineCSharp",
-      "projectPath": "/Users/amc/Documents/gait_pierna/GaitPipelineCSharp/GaitPipelineCSharp.csproj",
+      "projectPath": "/Users/amc/Documents/Gait-Tracking-With-x_IMU-en_pierna/GaitPipelineCSharp/GaitPipelineCSharp.csproj",
       "packagesPath": "/Users/amc/.nuget/packages/",
-      "outputPath": "/Users/amc/Documents/gait_pierna/GaitPipelineCSharp/obj/",
+      "outputPath": "/Users/amc/Documents/Gait-Tracking-With-x_IMU-en_pierna/GaitPipelineCSharp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/amc/.nuget/NuGet/NuGet.Config"
